@@ -2,9 +2,9 @@
 
 
 
-let number = parseInt(prompt("inserisci un numero compresto tra 1 e 10"));
+let number;
 while((number > 10) || (number < 1) ){
-    number = parseInt(prompt("errore riprova!"))
+    number = parseInt(prompt("inserisci il numero corretto"))
 }
 
 console.log(number);
