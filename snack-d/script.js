@@ -5,12 +5,15 @@ let arrayElement1 = [5, 10, 12, 13];
 
 let arrayElement2 = [5, 10];
 
-let sum = 0;
+
 
 while(arrayElement2.lenght != arrayElement1.length ){   
-    let number = parseInt(prompt("inserisci un numero"));
-    arrayElement2.push(number);
-    arrayElement1.push(number); 
+    if(arrayElement1.lenght < arrayElement2.length){
+        arrayElement1.push(0);
+    }else{
+        arrayElement2.push(0);
+    }
+
 }
 
 console.log(arrayElement1);
