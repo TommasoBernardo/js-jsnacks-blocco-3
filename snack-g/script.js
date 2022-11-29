@@ -8,7 +8,7 @@ function getSumOfArrayElements(array){
     let sum = 0;
     for(let i = 0 ; i < array.lenght ; i++ ){
         const castElement = parseInt(array[i], 10);
-        if( ! Number.isNaN(castElement) ){
+        if( !Number.isNaN(castElement) ){
             sum = sum + castElement;
         }
     }
@@ -16,5 +16,7 @@ function getSumOfArrayElements(array){
 }
 
 const list = ['0x51232f', '2', '1', 10, 22, 33, 2];
+const numeri = [2,2,2,2,2,2,2,2,2,];
 
 console.log(getSumOfArrayElements(list));
+console.log(getSumOfArrayElements(numeri));
