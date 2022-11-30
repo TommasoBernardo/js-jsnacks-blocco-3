@@ -2,9 +2,12 @@
 .pari{
     border: 1px solid red;
     background-color: red;
+    width: 50%;
 }
 
 .dispari{
     border: 1px solid green;
     background-color: green;
+    width: 50%;;
 }
+
